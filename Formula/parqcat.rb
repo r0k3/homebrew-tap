@@ -1,25 +1,25 @@
 class Parqcat < Formula
   desc "A lightweight Unix-style CLI for inspecting Parquet files."
   homepage "https://github.com/r0k3/parqcat"
-  version "1.0.2"
+  version "1.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/r0k3/parqcat/releases/download/v1.0.2/parqcat-aarch64-apple-darwin.tar.xz"
-      sha256 "0d3141e90279960a6a908511ff8cc2b8888f8ec9591d60f3362ecab39e5f340c"
+      url "https://github.com/r0k3/parqcat/releases/download/v1.0.3/parqcat-aarch64-apple-darwin.tar.xz"
+      sha256 "a017f9970ee6300c323ccae9e3ae4204c78c3c4680d9b7067a40cbcdf6099fe4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/r0k3/parqcat/releases/download/v1.0.2/parqcat-x86_64-apple-darwin.tar.xz"
-      sha256 "a0b9ea64d51acf627aed0c99b764506de6a8cf9f07af2d549fb3ed50b6177d63"
+      url "https://github.com/r0k3/parqcat/releases/download/v1.0.3/parqcat-x86_64-apple-darwin.tar.xz"
+      sha256 "7bc6629d270a0039383ce7f3a5a40c37161d5df64ad6f0e139f895872589eff9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/r0k3/parqcat/releases/download/v1.0.2/parqcat-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1004962cd56b8be3bc4c5d41677ca957ff78bff94ddc4cde21304b34c36ce77a"
+      url "https://github.com/r0k3/parqcat/releases/download/v1.0.3/parqcat-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "abcd20b7cabf22a65e18a981a7788ee8664e7c34df93f3ded301dd9633a6bcc6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/r0k3/parqcat/releases/download/v1.0.2/parqcat-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0a656e729ebd7716d636656e6f14d47f23ada9187a4d2be1c2148e3bcc93db92"
+      url "https://github.com/r0k3/parqcat/releases/download/v1.0.3/parqcat-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1a5bcc2bbf602ae1394eda3ba8f7260e9fc3d942832766b8d95afaf31a44e349"
     end
   end
   license "Apache-2.0"
